@@ -14,9 +14,9 @@ const providerOptions = {
   walletconnect: {
     package: WalletConnectProvider, // required
     options: {
-      infuraId: "http://data-seed-pre-0-s1.binance.org:80/", // required
+      infuraId: "https://bsc-dataseed1.defibit.io/", // required
       rpc: {
-        97: "http://data-seed-pre-0-s1.binance.org:80/", // AVAX C-Chain
+        56: "https://bsc-dataseed1.defibit.io/", // AVAX C-Chain
       },
     },
   },
@@ -25,8 +25,8 @@ const providerOptions = {
     options: {
       appName: "Ava Sharks", // Required
       infuraId: "", // Required unless you provide a JSON RPC url; see `rpc` below
-      97: "http://data-seed-pre-0-s1.binance.org:80/", // Optional if `infuraId` is provided; otherwise it's required
-      chainId: 97, // Optional. It defaults to 1 if not provided
+      56: "https://bsc-dataseed1.defibit.io/", // Optional if `infuraId` is provided; otherwise it's required
+      chainId: 56, // Optional. It defaults to 1 if not provided
       appLogoUrl: null, // Optional. Application logo image URL. favicon is used if unspecified
       darkMode: false, // Optional. Use dark theme, defaults to false
     },
